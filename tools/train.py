@@ -11,7 +11,7 @@ from mmdet.models import build_detector
 import torch
 
 
-def parse_args():
+def parse_args(): #用来获得命令行的各个参数
     parser = argparse.ArgumentParser(description='Train a detector')
     parser.add_argument('config', help='train config file path')
     parser.add_argument('--work_dir', help='the dir to save logs and models')
